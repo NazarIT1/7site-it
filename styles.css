@@ -49,7 +49,46 @@ flex-direction: column;
     margin-bottom: 72px;
 }
 
+.footer-logo-ind {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--main-team-color, antiquewhite);
+    display: flex;
+    align-self: center;
+}
 
 
+.footer-studio-ind{
+    color: var(--main-text-button,blue;)
+}
 
+.footer-text-ind{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    width: 264px;
+    color: var(--main-footer-text,aliceblue);
+    margin-top: 16px;
+}
 
+.footer-soc-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-soc-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: azure;
+    margin-bottom: 16px;
+
+    
+}
